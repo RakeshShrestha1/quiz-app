@@ -1,0 +1,127 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Example of using Google Fonts */
+  background-color: #f8f8f8; /* Light background color */
+}
+
+/* Container for screens */
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #ff00ea;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff00b7; /* Darker pink on hover */
+  transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+/* Question display */
+#question {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+/* Result messages */
+.result-message {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Correct answer style */
+.correct {
+  color: #00b300; /* Green for correct answers */
+}
+
+/* Incorrect answer style */
+.incorrect {
+  color: #ff4d4d; /* Red for incorrect answers */
+}
+
+/* Answer buttons container */
+#answers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Start screen container */
+.start-content {
+  padding: 100px;
+  border-radius: 20px;
+  background-color: rgba(255, 0, 234, 0.8); /* Transparent pink */
+  box-shadow: 0 0 20px rgba(255, 0, 234, 0.2);
+}
+
+/* Start button */
+#start-btn {
+  margin-top: 30px;
+}
+
+/* Difficulty level screen */
+#difficulty-screen {
+  background-color: rgba(0, 123, 255, 0.8); /* Transparent blue */
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.2);
+}
+
+/* Question screen */
+#question-screen {
+  background-color: rgba(255, 255, 0, 0.8); /* Transparent yellow */
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.2);
+}
+
+/* Result screen */
+#result-screen {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading indicator */
+#loading-indicator {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333; /* Dark gray */
+}
+
+/* Hidden class */
+.hidden {
+  display: none;
+}
+
+/* Correct answer button background */
+button.correct-background {
+  background-color: #00b300; /* Dark green */
+}
+
+/* Incorrect answer button background */
+button.incorrect-background {
+  background-color: #ff4d4d; /* Dark red */
+}
